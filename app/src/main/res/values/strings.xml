@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="validatePicture">Coloque una imagen</string>
+    <string name="validateName">Nombre inválido</string>
+    <string name="validatePhone">Teléfono inválido</string>
+    <string name="validateUbication">Ubicación inválida</string>
+    <string name="validateWeb">Web inválida</string>
+</resources>

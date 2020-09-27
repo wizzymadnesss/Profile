@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivProfileResponse"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/user"/>
+    <TextView
+        android:id="@+id/tvNameResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_name"/>
+    <TextView
+        android:id="@+id/tvPhoneResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_phone"/>
+    <TextView
+        android:id="@+id/tvUbicationResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicacion"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_location"/>
+    <TextView
+        android:id="@+id/tvPaginaWebResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sitio web"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_web"/>
+
+</LinearLayout>
